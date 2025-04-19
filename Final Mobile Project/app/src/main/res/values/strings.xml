@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Final Mobile Project</string>
+    <string name="login_page">Login Page👋</string>
+    <string name="m">M</string>
+    <string name="y">y</string>
+    <string name="c">c</string>
+    <string name="s">S</string>
+    <string name="o">o</string>
+    <string name="h">h</string>
+    <string name="l">l</string>
+    <string name="a">A</string>
+    <string name="p">p</string>
+    <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign up</string>
+    <string name="login">Login</string>
+    <string name="remember_password">Remember password</string>
+    <string name="password">🔒 Password</string>
+    <string name="email_or_username">📧 Email or Username</string>
+</resources>

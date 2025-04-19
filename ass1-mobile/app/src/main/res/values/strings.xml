@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ass1-mobile app</string>
+    <string name="txtlogin">login</string>
+    <string name="login">login</string>
+    <string name="app_logo">app_logo</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="remember_me">remember_me</string>
+    <string name="search_product">Search Product</string>
+    <string name="available_only">Available Products Only</string>
+
+    <string-array name="category_options">
+
+        <item>Clothing</item>
+        <item>Accessories</item>
+        <item>Home Decor</item>
+    </string-array>
+
+    <string-array name="color_options">
+
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+
+</resources>
