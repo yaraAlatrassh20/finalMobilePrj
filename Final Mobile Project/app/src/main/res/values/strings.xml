@@ -15,4 +15,9 @@
     <string name="remember_password">Remember password</string>
     <string name="password">🔒 Password</string>
     <string name="email_or_username">📧 Email or Username</string>
+    <string name="signUpPage_greeting">Hello, Student👋</string>
+    <string name="signUp_email">📧 Email</string>
+    <string name="signUp_username">Username</string>
+    <string name="signUpBtn">CREATE ACCOUNT</string>
+
 </resources>

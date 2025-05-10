@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="20dp"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signUpPage_greeting"
+        style="@style/TextStyle"
+        android:textSize="24sp"
+        android:textColor="@color/blue2"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:hint="@string/signUp_email"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:hint="@string/signUp_username"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="15dp" />
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:hint="@string/password"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        style="@style/ButtonStyle"
+        android:layout_width="249dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/signUpBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rememberPassword" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
